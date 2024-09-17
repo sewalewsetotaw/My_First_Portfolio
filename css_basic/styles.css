@@ -1,0 +1,55 @@
+.logo {
+    font-size: 3em; 
+    background-color: #8a2be2; 
+    color: white; 
+    width: 1.5em; 
+    height: 1.5em; 
+    padding: 10px; 
+    border-radius: 50%; 
+    display: inline-block; 
+    text-align: center; 
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+main {
+    display: flex;
+    flex-direction: row;
+    flex: auto; 
+}
+article, aside {
+    overflow-y: auto; 
+}
+article {
+    flex: 2; 
+    background-color: hsl(270, 12%, 90%);
+}
+aside {
+    flex: 1;    
+    background-color: rgb(110, 226, 43);
+}
+header, footer{
+    background-color: blanchedalmond;
+}
+header, footer, article, aside {
+    padding: 10px; 
+    border: 1px solid black;
+}
+li{
+    list-style: none;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    font-size: 1em; 
+    text-align: left; 
+    background-color: #f9f9f9; 
+}
+
+th, td {
+    padding: 12px 15px; 
+    border: 1px solid #ddd; 
+}
